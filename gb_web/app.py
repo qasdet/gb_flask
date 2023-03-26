@@ -11,7 +11,7 @@ from .index.views import index
 from .report.views import report
 from .auth.view import auth
 
-CONFIG_PATH = getenv("CONFIG_PATH", path.join("..\dev_config.json"))
+CONFIG_PATH = getenv("CONFIG_PATH", path.join("../dev_config.json"))
 
 VIEWS = [
     index,
